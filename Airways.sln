@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A8DF511-FE46-4BB8-8A7C-3CBBDA1A4491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airways.Api", "Airways\src\Airways.Api\Airways.Api.csproj", "{10A21249-2A0B-4DA2-9351-455AF222FAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airways.Application", "Airways\src\Airways.Application\Airways.Application.csproj", "{40F49AB0-CB8B-4DD5-B409-E4C872AE1812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A21249-2A0B-4DA2-9351-455AF222FAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A21249-2A0B-4DA2-9351-455AF222FAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A21249-2A0B-4DA2-9351-455AF222FAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A21249-2A0B-4DA2-9351-455AF222FAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F49AB0-CB8B-4DD5-B409-E4C872AE1812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F49AB0-CB8B-4DD5-B409-E4C872AE1812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F49AB0-CB8B-4DD5-B409-E4C872AE1812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F49AB0-CB8B-4DD5-B409-E4C872AE1812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10A21249-2A0B-4DA2-9351-455AF222FAB9} = {3A8DF511-FE46-4BB8-8A7C-3CBBDA1A4491}
+		{40F49AB0-CB8B-4DD5-B409-E4C872AE1812} = {3A8DF511-FE46-4BB8-8A7C-3CBBDA1A4491}
+	EndGlobalSection
+EndGlobal
